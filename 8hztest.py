@@ -21,4 +21,5 @@ while True:
 
 
 print('Average MLX90640 Temperature: {0:2.1f}C ({1:2.1f}F)'.\
-      format(np.mean(frame),(((9.0/5.0)*np.mean(frame))+32.0)))  
+      format(np.mean(frame),(((9.0/5.0)*np.mean(frame))+32.0))) 
+#Provides accurate average, test successful. 
